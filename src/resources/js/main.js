@@ -1,9 +1,5 @@
 var dataObject = new XMLHttpRequest();
 
-window.onload = function() {
-
-};
-
 document.getElementById('random').onclick = function() {
   var win = window.open("https://en.wikipedia.org/wiki/Special:Random", '_blank');
   win.focus();
